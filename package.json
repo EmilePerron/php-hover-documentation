@@ -10,7 +10,7 @@
       "hover",
       "tooltip"
   ],
-  "repository": "https://github.com/atom/php-hover-documentation",
+  "repository": "https://github.com/EmilePerron/php-hover-documentation",
   "license": "MIT",
   "engines": {
     "atom": ">=1.0.0 <2.0.0"
