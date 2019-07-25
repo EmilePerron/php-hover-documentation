@@ -1,14 +1,14 @@
 {
   "name": "php-hover-documentation",
   "main": "./lib/php-hover-documentation",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "description": "A simple Atom package that displays the definition and description of PHP functions when you hover their names.",
   "keywords": [
-      "php",
-      "documentation",
-      "doc",
-      "hover",
-      "tooltip"
+    "php",
+    "documentation",
+    "doc",
+    "hover",
+    "tooltip"
   ],
   "repository": "https://github.com/EmilePerron/php-hover-documentation",
   "license": "MIT",
