@@ -8,10 +8,13 @@
 .phpdochover-definition > a:not(.learn-more) { pointer-events: none; }
 .phpdochover-definition .definition::after { content: ' '; display: block; width: 100%; height: 1px; margin: 8px 0; background-color: rgba(255, 255, 255, .25); }
 .phpdochover-definition .definition .methodname strong { font-weight: 400; }
-.phpdochover-definition .definition .methodparam .type { font-size: .9em; font-weight: 300; line-height: 1em; color: rgba(255, 255, 255, .5); opacity: 1; }
-.phpdochover-definition .definition .methodparam code { padding: 0; font-weight: 500; color: white; background: none; }
+.phpdochover-definition .definition .methodparam .type,
+.phpdochover-definition .definition .arg-type { font-size: .9em; font-weight: 300; line-height: 1em; color: rgba(255, 255, 255, .5); opacity: 1; }
+.phpdochover-definition .definition .methodparam code,
+.phpdochover-definition .definition .arg-name { padding: 0; font-family: @font-family; font-weight: 500; color: white; background: none; }
 .phpdochover-definition .short-description { margin-top: 5px; color: white; opacity: .75; }
 .phpdochover-definition .long-description { max-width: 300px; max-height: 65px; margin-top: 5px; font-size: .8em; white-space: normal; color: white; opacity: .5; overflow: hidden; position: relative; }
 .phpdochover-definition .long-description::after { content: ' '; position: absolute; top: 30px; left: 0; width: 100%; height: 35px; background-image: linear-gradient(0deg, #4d78cc, transparent), linear-gradient(0deg, #4d78cc, transparent); }
 .phpdochover-definition .long-description p { margin-bottom: .5em; line-height: 1.5em; }
 .phpdochover-definition .long-description p:last-child { margin-bottom: 0; }
+.phpdochover-definition .wordpress-label { margin-top: 8px; font-size: .85em; color: rgba(255, 255, 255, .5); }
